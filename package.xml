@@ -16,7 +16,7 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2016-01-13</date>
+ <date>2017-10-13</date>
  <version>
   <release>1.0.0alpha1</release>
   <api>1.0.0alpha1</api>
@@ -39,9 +39,9 @@
     <file name=".htaccess" role="horde" />
     <file name="conf.xml" role="horde" />
    </dir> <!-- /config -->
-   <dir name="docs">
+   <dir name="doc">
     <file name="CREDITS" role="doc" />
-   </dir> <!-- /docs -->
+   </dir> <!-- /doc -->
    <dir name="lib">
     <dir name="Ajax">
      <dir name="Application">
@@ -180,7 +180,7 @@
    <install as="shout/admin/numbers.php" name="admin/numbers.php" />
    <install as="shout/config/.htaccess" name="config/.htaccess" />
    <install as="shout/config/conf.xml" name="config/conf.xml" />
-   <install as="CREDITS" name="docs/CREDITS" />
+   <install as="CREDITS" name="doc/CREDITS" />
    <install as="shout/lib/.htaccess" name="lib/.htaccess" />
    <install as="shout/lib/Application.php" name="lib/Application.php" />
    <install as="shout/lib/Driver.php" name="lib/Driver.php" />
@@ -259,7 +259,7 @@
     <release>alpha</release>
     <api>alpha</api>
    </stability>
-   <date>2016-01-13</date>
+   <date>2017-10-13</date>
    <license uri="TODO">TODO</license>
    <notes>
 * Initial release.
