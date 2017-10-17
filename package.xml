@@ -16,7 +16,7 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-10-13</date>
+ <date>2017-10-17</date>
  <version>
   <release>1.0.0alpha1</release>
   <api>1.0.0alpha1</api>
@@ -146,11 +146,11 @@
    </dir> <!-- /themes -->
    <file name="admin.php" role="horde" />
    <file name="conferences.php" role="horde" />
-   <file name="COPYING" role="doc" />
    <file name="devices.php" role="horde" />
    <file name="dialplan.php" role="horde" />
    <file name="extensions.php" role="horde" />
    <file name="index.php" role="horde" />
+   <file name="LICENSE" role="doc" />
    <file name="recordings.php" role="horde" />
    <file name="wizard.php" role="horde" />
   </dir> <!-- / -->
@@ -168,28 +168,24 @@
  <phprelease>
   <filelist>
    <install as="shout/admin.php" name="admin.php" />
-   <install as="shout/conferences.php" name="conferences.php" />
-   <install as="COPYING" name="COPYING" />
-   <install as="shout/devices.php" name="devices.php" />
-   <install as="shout/dialplan.php" name="dialplan.php" />
-   <install as="shout/extensions.php" name="extensions.php" />
-   <install as="shout/index.php" name="index.php" />
-   <install as="shout/recordings.php" name="recordings.php" />
-   <install as="shout/wizard.php" name="wizard.php" />
    <install as="shout/admin/accounts.php" name="admin/accounts.php" />
    <install as="shout/admin/numbers.php" name="admin/numbers.php" />
+   <install as="shout/conferences.php" name="conferences.php" />
    <install as="shout/config/.htaccess" name="config/.htaccess" />
    <install as="shout/config/conf.xml" name="config/conf.xml" />
+   <install as="shout/devices.php" name="devices.php" />
+   <install as="shout/dialplan.php" name="dialplan.php" />
    <install as="CREDITS" name="doc/CREDITS" />
+   <install as="shout/extensions.php" name="extensions.php" />
+   <install as="shout/index.php" name="index.php" />
    <install as="shout/lib/.htaccess" name="lib/.htaccess" />
-   <install as="shout/lib/Application.php" name="lib/Application.php" />
-   <install as="shout/lib/Driver.php" name="lib/Driver.php" />
-   <install as="shout/lib/Exception.php" name="lib/Exception.php" />
-   <install as="shout/lib/Shout.php" name="lib/Shout.php" />
    <install as="shout/lib/Ajax/Application.php" name="lib/Ajax/Application.php" />
    <install as="shout/lib/Ajax/Application/Handler.php" name="lib/Ajax/Application/Handler.php" />
+   <install as="shout/lib/Application.php" name="lib/Application.php" />
+   <install as="shout/lib/Driver.php" name="lib/Driver.php" />
    <install as="shout/lib/Driver/Ldap.php" name="lib/Driver/Ldap.php" />
    <install as="shout/lib/Driver/Sql.php" name="lib/Driver/Sql.php" />
+   <install as="shout/lib/Exception.php" name="lib/Exception.php" />
    <install as="shout/lib/Forms/AccountForm.php" name="lib/Forms/AccountForm.php" />
    <install as="shout/lib/Forms/ConferenceForm.php" name="lib/Forms/ConferenceForm.php" />
    <install as="shout/lib/Forms/DeviceForm.php" name="lib/Forms/DeviceForm.php" />
@@ -197,11 +193,11 @@
    <install as="shout/lib/Forms/MenuForm.php" name="lib/Forms/MenuForm.php" />
    <install as="shout/lib/Forms/NumberForm.php" name="lib/Forms/NumberForm.php" />
    <install as="shout/lib/Forms/RecordingForm.php" name="lib/Forms/RecordingForm.php" />
+   <install as="shout/lib/Shout.php" name="lib/Shout.php" />
+   <install as="LICENSE" name="LICENSE" />
+   <install as="shout/recordings.php" name="recordings.php" />
    <install as="shout/scripts/sql/shout.sql" name="scripts/sql/shout.sql" />
    <install as="shout/templates/.htaccess" name="templates/.htaccess" />
-   <install as="shout/templates/extensions.inc.php" name="templates/extensions.inc.php" />
-   <install as="shout/templates/menu.inc" name="templates/menu.inc" />
-   <install as="shout/templates/wizard.inc" name="templates/wizard.inc" />
    <install as="shout/templates/admin/accounts/edit.inc" name="templates/admin/accounts/edit.inc" />
    <install as="shout/templates/admin/accounts/list.inc" name="templates/admin/accounts/list.inc" />
    <install as="shout/templates/admin/numbers/edit.inc.php" name="templates/admin/numbers/edit.inc.php" />
@@ -213,9 +209,11 @@
    <install as="shout/templates/devices/list.inc" name="templates/devices/list.inc" />
    <install as="shout/templates/dialplan/add.inc" name="templates/dialplan/add.inc" />
    <install as="shout/templates/dialplan/edit.inc" name="templates/dialplan/edit.inc" />
+   <install as="shout/templates/extensions.inc.php" name="templates/extensions.inc.php" />
+   <install as="shout/templates/menu.inc" name="templates/menu.inc" />
    <install as="shout/templates/recordings/add.inc" name="templates/recordings/add.inc" />
    <install as="shout/templates/recordings/list.inc" name="templates/recordings/list.inc" />
-   <install as="shout/themes/default/screen.css" name="themes/default/screen.css" />
+   <install as="shout/templates/wizard.inc" name="templates/wizard.inc" />
    <install as="shout/themes/default/graphics/admin.png" name="themes/default/graphics/admin.png" />
    <install as="shout/themes/default/graphics/conference-add.png" name="themes/default/graphics/conference-add.png" />
    <install as="shout/themes/default/graphics/conference.png" name="themes/default/graphics/conference.png" />
@@ -247,6 +245,8 @@
    <install as="shout/themes/default/graphics/shout.png" name="themes/default/graphics/shout.png" />
    <install as="shout/themes/default/graphics/telephone-pole.png" name="themes/default/graphics/telephone-pole.png" />
    <install as="shout/themes/default/graphics/transparency.png" name="themes/default/graphics/transparency.png" />
+   <install as="shout/themes/default/screen.css" name="themes/default/screen.css" />
+   <install as="shout/wizard.php" name="wizard.php" />
   </filelist>
  </phprelease>
  <changelog>
@@ -259,7 +259,7 @@
     <release>alpha</release>
     <api>alpha</api>
    </stability>
-   <date>2017-10-13</date>
+   <date>2017-10-17</date>
    <license uri="TODO">TODO</license>
    <notes>
 * Initial release.
