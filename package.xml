@@ -40,7 +40,7 @@
     <file name="conf.xml" role="horde" />
    </dir> <!-- /config -->
    <dir name="doc">
-    <file name="CREDITS" role="doc" />
+    <file name="CREDITS.rst" role="doc" />
    </dir> <!-- /doc -->
    <dir name="lib">
     <dir name="Ajax">
@@ -175,7 +175,7 @@
    <install as="shout/config/conf.xml" name="config/conf.xml" />
    <install as="shout/devices.php" name="devices.php" />
    <install as="shout/dialplan.php" name="dialplan.php" />
-   <install as="CREDITS" name="doc/CREDITS" />
+   <install as="CREDITS.rst" name="doc/CREDITS.rst" />
    <install as="shout/extensions.php" name="extensions.php" />
    <install as="shout/index.php" name="index.php" />
    <install as="shout/lib/.htaccess" name="lib/.htaccess" />
