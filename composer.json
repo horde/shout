@@ -1,0 +1,39 @@
+{
+    "name": "horde/shout",
+    "description": "TODO",
+    "type": "library",
+    "homepage": "https://pear.horde.org",
+    "license": "TODO",
+    "authors": [
+        {
+            "name": "Chuck Hagenbuch",
+            "email": "chuck@horde.org",
+            "role": "lead"
+        },
+        {
+            "name": "Jan Schneider",
+            "email": "jan@horde.org",
+            "role": "lead"
+        }
+    ],
+    "version": "1.0.0alpha1",
+    "time": "2017-10-17",
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "https://pear.horde.org"
+        }
+    ],
+    "require": {
+        "php": "^5.3"
+    },
+    "replace": {
+        "pear-pear.horde.org/shout": "1.*",
+        "pear-horde/shout": "1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Shout": "lib/"
+        }
+    }
+}
