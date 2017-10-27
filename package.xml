@@ -16,7 +16,7 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-10-17</date>
+ <date>2017-10-27</date>
  <version>
   <release>1.0.0alpha1</release>
   <api>1.0.0alpha1</api>
@@ -40,6 +40,7 @@
     <file name="conf.xml" role="horde" />
    </dir> <!-- /config -->
    <dir name="doc">
+    <file name="CHANGES" role="doc" />
     <file name="CREDITS.rst" role="doc" />
    </dir> <!-- /doc -->
    <dir name="lib">
@@ -175,6 +176,7 @@
    <install as="shout/config/conf.xml" name="config/conf.xml" />
    <install as="shout/devices.php" name="devices.php" />
    <install as="shout/dialplan.php" name="dialplan.php" />
+   <install as="CHANGES" name="doc/CHANGES" />
    <install as="CREDITS.rst" name="doc/CREDITS.rst" />
    <install as="shout/extensions.php" name="extensions.php" />
    <install as="shout/index.php" name="index.php" />
@@ -259,7 +261,7 @@
     <release>alpha</release>
     <api>alpha</api>
    </stability>
-   <date>2017-10-17</date>
+   <date>2017-10-27</date>
    <license uri="TODO">TODO</license>
    <notes>
 * Initial release.
