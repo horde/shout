@@ -1,8 +1,8 @@
 {
     "name": "horde/shout",
-    "description": "TODO",
-    "type": "library",
-    "homepage": "https://pear.horde.org",
+    "description": "Telephony management application",
+    "type": "project",
+    "homepage": "https://www.horde.org",
     "license": "TODO",
     "authors": [
         {
@@ -17,7 +17,7 @@
         }
     ],
     "version": "1.0.0alpha1",
-    "time": "2017-10-17",
+    "time": "2017-11-11",
     "repositories": [
         {
             "type": "pear",
