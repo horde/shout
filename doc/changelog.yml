@@ -4,9 +4,10 @@
   state:
     release: alpha
     api: alpha
-  date: 2017-10-17
+  date: 2021-07-04
   license:
     identifier: TODO
     uri: TODO
   notes: |
     Initial release.
+    [rla] Package for H6 / composer installer.

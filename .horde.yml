@@ -29,4 +29,8 @@ license:
   uri: TODO
 dependencies:
   required:
-    php: ^5.3
+    php: ^7
+  composer:
+    horde/horde: ^3
+    horde/core: ^3
+    horde/exception: ^3

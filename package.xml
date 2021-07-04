@@ -5,18 +5,18 @@
  <summary>Telephony management application</summary>
  <description>TODO</description>
  <lead>
-  <name>Chuck Hagenbuch</name>
-  <user>chuck</user>
-  <email>chuck@horde.org</email>
-  <active>yes</active>
- </lead>
- <lead>
   <name>Jan Schneider</name>
   <user>jan</user>
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-11-11</date>
+ <lead>
+  <name>Chuck Hagenbuch</name>
+  <user>chuck</user>
+  <email>chuck@horde.org</email>
+  <active>no</active>
+ </lead>
+ <date>2021-07-04</date>
  <version>
   <release>1.0.0alpha1</release>
   <api>1.0.0alpha1</api>
@@ -28,6 +28,7 @@
  <license uri="TODO">TODO</license>
  <notes>
 * Initial release.
+* [rla] Package for H6 / composer installer.
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -159,7 +160,7 @@
  <dependencies>
   <required>
    <php>
-    <min>5.3.0</min>
+    <min>7.0.0</min>
    </php>
    <pearinstaller>
     <min>1.7.0</min>
@@ -261,10 +262,11 @@
     <release>alpha</release>
     <api>alpha</api>
    </stability>
-   <date>2017-11-11</date>
+   <date>2021-04-07</date>
    <license uri="TODO">TODO</license>
    <notes>
 * Initial release.
+* [rla] Package for H6 / composer installer.
    </notes>
   </release>
  </changelog>
