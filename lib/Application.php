@@ -37,7 +37,7 @@ class Shout_Application extends Horde_Registry_Application
 {
     /**
      */
-    public $version = '1.0.0alpha2';
+    public $version = 'H6 1.0.0alpha2';
 
     /**
      * TODO
