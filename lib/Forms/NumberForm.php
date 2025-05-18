@@ -20,7 +20,7 @@ class NumberDetailsForm extends Horde_Form {
      * @param mixed reference $vars
      * @return boolean
      */
-    function __construct(&$vars)
+    function __construct($vars)
     {
         $action = $vars->get('action');
         if ($action == 'edit') {
@@ -77,7 +77,7 @@ class NumberDetailsForm extends Horde_Form {
 
 class NumberDeleteForm extends Horde_Form
 {
-    function __construct(&$vars)
+    function __construct($vars)
     {
         die("FIXME");
         $extension = $vars->get('extension');

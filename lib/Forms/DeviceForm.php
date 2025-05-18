@@ -11,7 +11,7 @@
 
 class DeviceDetailsForm extends Horde_Form {
 
-    function __construct(&$vars)
+    function __construct($vars)
     {
         if ($vars->exists('devid')) {
             $formtitle = "Edit Device";
@@ -92,7 +92,7 @@ class DeviceDetailsForm extends Horde_Form {
 
 class DeviceDeleteForm extends Horde_Form
 {
-    function __construct(&$vars)
+    function __construct($vars)
     {
         $devid = $vars->get('devid');
         $account = $vars->get('account');

@@ -20,7 +20,7 @@ class AccountDetailsForm extends Horde_Form {
      * @param mixed reference $vars
      * @return boolean
      */
-    function __construct(&$vars)
+    function __construct($vars)
     {
         $account = $GLOBALS['session']->get('shout', 'curaccount_code');
         $action = $vars->get('action');
@@ -65,7 +65,7 @@ class AccountDetailsForm extends Horde_Form {
 
 class AccountDeleteForm extends Horde_Form
 {
-    function __construct(&$vars)
+    function __construct($vars)
     {
         $extension = $vars->get('extension');
         $account = $vars->get('account');

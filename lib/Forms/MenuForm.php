@@ -11,7 +11,7 @@
 
 class MenuForm extends Horde_Form {
 
-    function __construct(&$vars)
+    function __construct($vars)
     {
         if ($vars->exists('menu')) {
             $formtitle = _("Edit Menu");
@@ -70,7 +70,7 @@ class MenuForm extends Horde_Form {
 
 class DeviceMenuForm extends Horde_Form
 {
-    function __construct(&$vars)
+    function __construct($vars)
     {
         $menu = $vars->get('$menu');
         $account = $vars->get('account');

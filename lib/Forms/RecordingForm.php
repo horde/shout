@@ -11,7 +11,7 @@
 
 class RecordingDetailsForm extends Horde_Form {
 
-    function __construct(&$vars)
+    function __construct($vars)
     {
 
         $formtitle = "Create Recording";
@@ -42,7 +42,7 @@ class RecordingDetailsForm extends Horde_Form {
 
 class ConferenceDeleteForm extends Horde_Form
 {
-    function __construct(&$vars)
+    function __construct($vars)
     {
         $devid = $vars->get('devid');
         $account = $vars->get('account');

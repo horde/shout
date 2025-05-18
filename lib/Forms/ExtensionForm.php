@@ -19,7 +19,7 @@ class ExtensionDetailsForm extends Horde_Form {
      * @param <type> $vars
      * @return <type>
      */
-    function __construct(&$vars)
+    function __construct($vars)
     {
         $action = $vars->get('action');
         if ($action == 'edit') {
@@ -75,7 +75,7 @@ class ExtensionDetailsForm extends Horde_Form {
 
 class ExtensionDeleteForm extends Horde_Form
 {
-    function __construct(&$vars)
+    function __construct($vars)
     {
         $extension = $vars->get('extension');
         $account = $vars->get('account');

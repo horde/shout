@@ -11,7 +11,7 @@
 
 class ConferenceDetailsForm extends Horde_Form {
 
-    function __construct(&$vars)
+    function __construct($vars)
     {
         $accountname = $GLOBALS['session']->get('shout', 'curaccount_name');
         if ($vars->exists('roomno')) {
@@ -69,7 +69,7 @@ class ConferenceDetailsForm extends Horde_Form {
 
 class ConferenceDeleteForm extends Horde_Form
 {
-    function __construct(&$vars)
+    function __construct($vars)
     {
         $devid = $vars->get('devid');
         $account = $vars->get('account');
