@@ -9,7 +9,6 @@
     identifier: TODO
     uri: TODO
   notes: |+
-    
 1.0.0alpha1:
   api: 1.0.0alpha1
   state:
@@ -22,3 +21,19 @@
   notes: |
     Initial release.
     [rla] Package for H6 / composer installer.
+1.0.0-RC1:
+  api: 1.0.0-RC1
+  state:
+    release: RC
+    api: RC
+  date: 2026-05-19
+  license:
+    identifier: TODO
+    uri: https://spdx.org/licenses/TODO.html
+  notes: |-
+    chore: Update to PHP 8
+    docs: create/update conf.php.dist
+    fix: Remove reference from signatures.
+    Mark as a H6 app.
+    Add CI job for satis repo update
+    Development mode for shout-1.0.0alpha3
